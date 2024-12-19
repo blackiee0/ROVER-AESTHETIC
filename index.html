@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Rover</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            width:100% ;
+            background-color: #181818;
+        }
+.t1{
+    margin: 0px;
+    padding:0%;
+    width: 100.6%;
+    height: 50px;
+    background-color: #181818;
+}
+h1{
+    font-size: small;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    color: white;
+}
+.a1{
+    
+    position: absolute;
+    right: 12px;
+    text-align: center;
+    top: 2%;
+    color: red;
+    font-size: 25px;
+    background-color: #181818;
+    border: none;
+
+}
+.t2{
+    height: 80px;
+    width: 100.6%;
+    background-color: #0A0A0A;
+    overflow: hidden;
+}
+img{
+    display: block;
+    margin:auto;
+    padding: auto;
+    height: 55px;
+    width: 200px;
+position: relative;
+top: 15px;
+
+}
+.a2{
+position: relative;
+bottom: 25px;
+left: 25px;
+color: white;
+background-color: #0A0A0A;
+font-size: 20px;
+border: none;
+
+}
+button:hover{
+    color: red;
+}
+.a3{
+    position: relative;
+    left: 115px;
+    bottom: 20px;
+float: right;
+margin-right: 300px;
+font-size: 20px;
+border: none;
+background-color: #0A0A0A;
+color: white;
+overflow: hidden;
+}
+.a4{
+    display: flex;
+float: right;
+margin-right: -225px;
+position: relative;
+bottom: 25px;
+    font-size: 25px;
+    background-color: #0A0A0A;
+    color: white;
+    border: none;
+    overflow: hidden;
+}
+h3{
+    display: flex;
+    font-size: 10px;
+}
+.a5{
+float:right;
+margin-right: -328px;
+position: relative;
+bottom: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: #0A0A0A;
+    color: white;
+    overflow: hidden;
+}
+h4{
+    font-size: 10px;
+    position: relative;
+    bottom: 10px;
+    
+}
+
+.t3{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    height: 70px;
+    width: 100%;
+    background-color: #0A0A0A;
+    box-shadow: 1px 0px 2px lightgray;
+    overflow: hidden;
+    gap: 50px;
+}
+.a6{display: flex;
+    font-size: 20px;
+    border: none;
+    background-color: #0A0A0A;
+    color: white;
+    overflow: hidden;
+    height: 30px;
+    position: relative;
+    width: 80px;
+    top: 3px;
+    gap: 10px;
+}
+
+
+option{
+    background-color: #0A0A0A;
+    color:white;
+    font-size: 20px;
+    
+    
+}
+
+
+
+select{
+    width:17px ;
+    background-color: #0A0A0A;
+    border: none;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    top: 4px;
+    
+}
+select:hover{
+    color: red;
+}
+.a7{
+display: flex;
+    font-size: 20px;
+    border: none;
+    background-color: #0A0A0A;
+    color: white;
+    overflow: hidden;
+    height: 25px;
+    position: relative;
+    right: 10px;
+}
+.a8{
+   
+display: flex;
+    font-size: 20px;
+    border: none;
+    background-color: #0A0A0A;
+    color: white;
+    overflow: hidden;
+    height: 25px;
+    position: relative;
+    right: 20px; 
+}
+.t4{
+    display: grid;
+    height: 70vh;
+    width: 100.65%;
+    background-image:url("image/mod.jpg");
+    overflow: hidden;
+
+}
+
+h5{
+    font-size: 50px;
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 20px;
+    
+}
+h6{
+    font-size: 20px;
+    color: white;
+    position: relative;
+top: 20px;
+left: 25px;
+}
+.a9{
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0A0A0A;
+    color: white;
+    overflow: hidden;
+    height: 40px;
+    width: 100px;
+    position: relative;
+    bottom: 30px;
+    left: 40px;
+    justify-content: center;
+    overflow: hidden;
+}
+.a9:hover{
+    color: white;
+    background-color: red;
+}
+.t5{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background-color: #0A0A0A;
+    color: white;
+    align-items: center;
+    width: 100.6%
+    
+}
+.ly{
+    background-color: white;
+    font-size: 5px;
+    height: 2px; 
+    position: relative;
+    width: 100px;
+    top: 20px;
+}
+.m{
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+}
+.ly2{
+    background-color:white;
+    font-size: 5px;
+    height: 2px; 
+    position: relative;
+    width: 100px;
+    top: 23px;
+}
+
+
+.t6{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100.6%;
+background-color:#0A0A0A
+    
+}
+.lz{
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.t7{
+    display:flex;
+    justify-content: right;
+    align-items: c;
+    height: 10vh;
+    width: 100.6%;
+    background-color: #0A0A0A;
+   
+
+}
+.v2{
+    display: flex;
+    font-size: 25px;
+    color: #77A2B2;
+ 
+}
+.select1{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    color: lightgray;
+    justify-content: left;
+    position: relative;
+    top:-25px;
+}
+
+.select1:hover{
+    color: lightgray;
+}
+.t8{
+    background-color: #0A0A0A;
+    width: 100.6%;
+    
+}
+    .t9{
+        display: flex;
+        height: 50vh;
+        width: 100.6%;
+        background-color:#0A0A0A ;
+    gap: 54px;
+    align-items: center;
+ 
+border: none;
+justify-content: center;
+align-items: center;
+align-content: center;
+overflow: hidden;
+
+
+    }
+    .w1{
+        height: 40vh;
+        width: 33%;
+        background-image:url("image/1.jpg" );
+        background-size: cover;
+        overflow: hidden; 
+        transition: transform 0.3s ease-out; 
+    }
+    .w1:hover{
+        transform: scale(1.05);
+    }
+    
+    .w2{
+
+        height: 40vh;
+        width: 30%;
+        background-image:url("image/2.jpg" );
+        background-size: cover;
+        overflow: hidden; 
+        transition: transform 0.3s ease-out; 
+    }
+    .w2:hover{
+        transform: scale(1.05);
+    }
+
+    .w3
+    {
+        height: 40vh;
+        width: 30%;
+        background-image:url("image/3.jpg" );
+        background-size: cover;
+        overflow: hidden; 
+        transition: transform 0.3s ease-out; 
+        
+    }
+    .w3:hover{
+        transform: scale(1.05);
+    }
+    
+    .w4{
+        height: 40vh;
+        width: 30%;
+        background-image:url("image/4.jpg" );
+        background-size: cover;
+        overflow: hidden; 
+        transition: transform 0.3s ease-out; 
+
+    }
+    .w4:hover{
+        transform: scale(1.05);
+    }
+    .w5{
+        width: 55px;
+        
+
+    }
+    .m2{
+    position: relative;
+    top: 260px;
+        width: 350px;
+        height: 40px;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        font-size: 15px;
+        text-align: center;
+        color: black;
+        border: none;
+
+
+    }
+    .m2:hover{
+        background-color: #EE3F3F;
+        color: black;
+    }
+    
+    .w1:hover .m2 {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+    .w2:hover .m2{
+        opacity: 1;
+        transform: scale(1.05);
+    }
+    .w3:hover .m2{
+        opacity: 1;
+        transform: scale(1.05);
+    }
+    .w4:hover .m2{
+        opacity: 1;
+        transform: scale(1.05);
+    }
+    .t10{
+        display: flex;
+        height: 8vh;
+        width: 100.6%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border: none;
+        background-color:#0A0A0A;
+        overflow: hidden;
+    }
+
+    .z1{
+        display: flex;
+       width: 25%;
+
+       font-size: 20px;
+       color: gray;
+       background-color:#0A0A0A;
+       border: none;
+    
+    }
+    .z2{
+        display: flex;
+        width: 25%;
+        font-size: 20px;
+        color: gray;
+       background-color:#0A0A0A;
+       border: none;
+       position: relative;
+       left: 50px;
+    }
+    .z3{
+        display: flex;
+        width: 25%;
+        font-size: 20px;
+        color: gray;
+       background-color:#0A0A0A;
+       border: none;
+       position: relative;
+       left: 70px;
+    }
+    .z4{
+        display: flex;
+        width: 25%;
+        font-size: 20px;
+        color: gray;
+       background-color:#0A0A0A;
+       border: none;
+       position: relative;
+       left: 50px;
+
+    }
+    .z0{
+    
+        width: 50px;
+        
+    }
+
+.z1:hover{
+    color: red;
+}
+.t11{
+    display: flex;
+    height: 10vh;
+    width: 100.6%;
+    justify-content: center;
+    text-align: center;
+    border:none;
+    background-color: #0A0A0A;
+    gap: 30px;
+}
+
+.c1{
+    font-size: 31px;
+    width: 25%;
+    border:none;
+    color: white;
+}
+.c2{
+    font-size: 31px;
+    width: 25%;
+    color: white;
+    position: relative;
+    left: 40px;
+}
+.c3{
+    font-size: 31px;
+    width: 25%;
+    position: relative;
+    left: 20px;
+}
+.c4{
+    font-size: 31px;
+width: 25%;
+color: white;
+}
+.r1{
+    color: white;
+}
+
+.r2{
+    font-size: 25px;
+    color: white;
+}
+.c1:hover .i {
+    color:red;
+}
+.c2:hover i{
+    color: red;
+}
+.c1:hover i{
+    color: red;
+}
+.c3:hover i{
+    color: red;
+}
+.c4:hover i{
+    color: red;
+} 
+.t12{ display: flex;
+    height: 5vh;
+    width: 100.6%;
+    align-items: center;
+    justify-content: center;
+    background-color: #0A0A0A;
+
+text-align: center;
+position: relative;
+gap: 50px;
+
+}
+.o1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+background-color: white;
+border-radius: 5px;
+
+
+}
+.f2{
+    display: flex;
+    color: gray;
+ font-size: 20px;
+}
+.f2:hover{
+    color: white;
+}
+.t13{
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items:center ;
+    background-color: #0A0A0A;
+    width: 100.6%;
+}
+
+ .k1{
+    display: flex;
+    height: 40px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+color: black;
+background-color: white;
+border: none;
+border-radius: 10px;
+position: relative;
+bottom: 100px;
+
+ }
+ .g1{
+    font-size: 15px;
+ }
+.k1:hover{
+    background-color: red;
+    color: white;
+}
+.t14{
+    display: flex;
+    height: 90vh;
+    background-image:url("image/back.jpg" ) ;
+    background-size: cover;
+    background-color: #0A0A0A;
+    width: 100.6%;
+    justify-content: center;
+    position: relative;
+
+    
+}
+.j1{
+height: 1.5px;
+width: 10%;
+background-color: white;
+position: relative;
+    top: 130px;
+}
+.j2{
+    height: 1.5px;
+width: 10%;
+background-color: white;
+position: relative;
+    top: 130px;
+
+}
+.s1{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 130px;
+}
+.j3{
+    height: auto;
+    width: 400px;
+    display: flex;
+    color: white;
+    position: relative;
+    top: 30px;
+    right: 280px;
+    font-size: 40px;
+    justify-content: center;
+}
+.j4{
+    display: flex;
+    color: #B2B2B2;
+    position: relative;
+    top: 60px;
+    right: 240px;
+    width: 330px;
+    font-size: 20px;
+    justify-content: center;
+}
+.s2{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    justify-content: center;
+
+}
+.s3{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    justify-content: center;
+    
+}
+.s4{
+   display: flex;
+    height: 70px;
+    width: 70px;
+    background-color: black;
+justify-content: center;
+}
+    
+.s5{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    background-color: black;
+justify-content: center;
+
+}
+.j6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 500px;
+    position: relative;
+    right: 340px;
+    gap: 20px;
+}
+.g3{
+    display: flex;
+    font-size: 30px;
+    color: white;
+position: relative;
+left: 15px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.g2{
+    display: flex;
+    color: white;
+align-items: center;
+    font-size: 20px;
+    justify-content: center;
+    position: relative;
+    right: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.g4{
+font-size: 18px;
+}
+.g5{
+    display: flex;
+    height: 40px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+color: black;
+background-color: white;
+border: none;
+border-radius: 10px;
+position: relative;
+right: 150px;
+}
+.g5:hover{
+    background-color: red;
+    color: black;
+}
+.t15{
+    display: flex;
+    height: 80vh;
+    background-color:#181818;
+    width: 100.6%;
+overflow: hidden;   
+
+
+}
+.p0
+{
+    height: 30px;
+    color: white;
+    position: relative;
+    top: 80px;
+left: 40px;
+font-size: 26px;
+}
+.p1{
+    
+    color:#395266;
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    
+}
+.p2
+{
+    height: 30px;
+    color: white;
+    position: relative;
+    top: 80px;
+left: 80px;
+font-size: 26px;
+
+}
+.p3{
+    
+    color:#395266;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+
+
+}
+.p4
+{display: flex;
+    display: flex;
+    color: white;
+font-size: 20px;
+position: relative;
+right: 60px;
+top: 40px;
+}
+.p5{
+    display: flex;
+    justify-content: center;
+    color:#CCCCCC;
+    justify-content: right;
+font-size: 50px;
+position: relative;
+top: 60px;
+}
+.p6
+{
+    color:#CCCCCC;
+    display: flex;
+    justify-content: center;
+    color:#CCCCCC;
+    align-items: center;
+font-size: 20px;
+position: relative;
+top: 90px;
+
+    
+}
+.p7{
+    display: flex;
+    
+    align-items: center;
+    color:#395266;
+    font-size: 20px;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+
+}
+.t16{
+    width: 400px;
+    height: 500px;
+
+
+margin-left: auto;
+}
+.n1{
+    display: flex;
+    height: 24px;
+    width: 100p;
+justify-content: center;
+position: relative;
+bottom:10px;
+}
+.n2{
+    display: flex;
+    height: 24px;
+    width: 100p;
+justify-content: center;
+align-items: center;
+
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 130px;
+    left: 50px;
+    height: 50px;
+    width: 300px;
+
+}
+.bu1{
+    position: relative;
+    top: 200px;
+    left: 130px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border: none;
+    width: 150px;
+    font-size: 20px;
+}
+.bu1:hover{
+    color: white;
+}
+.sarbagya{
+    display: flex;
+    justify-content: center;
+    color:lightgray;
+    position: relative;
+    top: 220px;
+
+    
+}
+.t17{
+    height: 5vh;
+    width: 100.6%;
+    box-shadow: 1px 0px 2px lightgray;
+    background-color: #181818;
+
+
+}
+ </style>
+</head>
+<body>
+<div>
+<div class="t1">
+    <h1>GET FREE SHIPPING ALL OVER NEPAL</h1>
+   <button class="a1"> <i class="ri-close-line"></i></button>
+</div>
+<div class="t2">
+    <img src="image/topic.png" alt="">
+    <button class="a2"><i class="ri-instagram-line"></i> </button>
+<button class="a3"><i class="ri-search-line"></i></button>
+<button class="a4"><i class="ri-user-line"></i> <h3>Profile</h3></button>
+<button class="a5"><i class="ri-shopping-cart-line"></i>/Rs0.00</button>
+</div>
+<div class="t3">
+    <button class="a6">Shop
+        <select name="shop">
+            <option value="option1">Unisex</option>
+            <option value="option2"> female</option>
+          
+        </select>
+    </button>
+    <button class="a7"> Wishlist</button>
+    <button class="a8">About</button>
+</div>
+<div class="t4">
+
+<h5>GET FREE <br>SHIPPING</h5></br>
+<h6>All Over Nepal</h6>
+<button class="a9">Shop now </button>
+</div>
+<div class="t5">
+   <br> <h7 class="ly"></h7> <h8 class="m">Rover's Best Seller Collection</h8><h9 class="ly2"></h9></br>
+   </div>
+    <div class="t6">
+    <H10 class="lz">FEATURED PRODUCTS
+    </H10>
+</div>
+<div class="t8">
+<h11 class="v2"> Showing 1–4 of 14 results</h11>
+</div>
+<div class="t7">
+
+<select class="select1" name="select1" id="hii">
+<option value="option">Default sorting</option>
+<option value="option1">sort by popularity</option>
+<option value="option2">sort by average rating</option>
+<option value="option3" >sort by latest</option>
+<option value="option4">sort by price:low to high</option>
+<option value="option5">sort by price: high to low</option>
+</select>
+</div>
+<div class="t9">
+    <div class="w5"></div>
+<div  class="w1"> <button class="m2">SELECT OPTIONS</button></div>
+<div class="w2"> <button class="m2">SELECT OPTIONS</button></div>
+<div class="w3"> <button class="m2">SELECT OPTIONS</button></div>
+<div class="w4"><button class="m2">SELECT OPTIONS</button></div>
+<div class="w6"></div>
+</div>
+
+<div class="t11">
+<div class="c1"> <I class="r1">Rover Crewneck T-shirt<br></I><I class="r2">Rs1500.00</I></br></div>
+<div class="c2"><I class="r1">Rover Lightweight Hoodie<br></I><i class="r2">Rs2200.00</i></br></div>
+<div class="c3"><I class="r1">Rover Plain T-shirt<br></I><i class="r2">Rs1000.00</i></br></div>
+<div class="c4"><I class="r1">Cargo Pants<br></I><I class="r2">Rs1950.00</I></br></div>
+</div>
+<div class="t10">
+    <div class="z0"></div>
+<button class="z1"><div class="x1"><i class="ri-heart-line"></i><a>Add to Wishlist</a></div></button>
+<button class="z2"><div class="x2"><i class="ri-heart-line"></i><a>Add to Wishlist</a></div></button>
+<button class="z3"><div class="x3"><i class="ri-heart-line"></i><a>Add to Wishlist</a></div></button>
+<button class="z4"><div class="x4"><i class="ri-heart-line"></i><a>Add to Wishlist</a></div></button>
+<div class="z5"></div>
+</div>
+
+<div class="t12">
+    <div class="o1"><b>1</b> </div>
+    <b class="f2">2</b>
+    <b class="f2">3</b>
+    <b class="f2">4</b>
+    <b class="f2"><i class="ri-arrow-right-line"></i></b>
+
+</div>
+<div class="t13"><button class="k1"> <b class="g1">Shop now</b></div></button>
+<div class="t14">
+<div class="j1"></div>
+<h class="s1">Deal Of The Month</h>
+<div class="j2">
+<b class="j3">SUMMER HOODIE</b>
+<b class="j4">Get 10% OFF Now! Use Code: 'RA10'</b>
+<div class="j6">
+<div class="s2"><B class="g3">0<i class="g2"><br>Day</i></B></div>
+<div class="s3"><B class="g3">00<i class="g2"><br>Hr</i></B></div>
+<div class="s4"><B class="g3">00<i class="g2"><br>Min</i></B></div>
+<div class="s5"><B class="g3">00<i class="g2"><br>Sec</i></B></div>
+</div>
+<button class="g5"> <b class="g4">Shop now</b></button>
+</div>
+</div>
+<div class="t15">
+    <B class="p0">About <br><i class="p1">Artistic expression should never be restricted</i></B>
+    <B class="p2">CART <br><i class="p3">No products in the cart.</i></B>
+    <div class="t16">
+   <div class="n1"> <i class="p4">Subscribe to Our Newsletter</i></div>
+   <div class="n2"> <i class="p5">10% OFF</i></div>
+    <div class="n3"><i class="p6">Especially For You 🎁</i></div>
+    <div class="n4"> <i class="p7">Sign up to receive your exclusive discount, <br>and keep up to date on our latest products <br>& offers!
+
+    </i>
+    <input type="email" name="email" id="email" class="email" placeholder="Email Address* " class="place1"> 
+    <button class="bu1"> Save 10%</button>
+    <i class="sarbagya"> We don’t spam! Read our privacy policy for more info.</i>
+</div>
+</div>    
+</div>
+</div>
+<div class="t17"></div>
+</body>
+</html>
